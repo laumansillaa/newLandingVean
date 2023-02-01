@@ -1,0 +1,129 @@
+.contHome {
+  width: 100%;
+  height: 100vh;
+  background: #ffffff;
+  color: #000;
+  display: flex;
+  position: relative;
+  padding-top: 66px;
+}
+
+.homeImg {
+  height: 476px;
+  position: absolute;
+  right: 0px;
+}
+
+.contTextHome {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.titleHome {
+  font-family: "Montserrat";
+  font-style: bold;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  letter-spacing: 0.0015em;
+  color: #2c0051;
+  width: 757px;
+  height: 234px;
+}
+
+.subtitleHome {
+  width: 469px;
+  height: 26px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #181818;
+  margin-top: 25px;
+}
+
+.contButtons {
+  margin-top: 50px;
+  height: auto;
+  display: flex;
+  gap: 30px;
+}
+
+.buttonHome {
+  width: 138px;
+  height: 45px;
+  background: #fb2576;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  border: 0px;
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1400px) {
+  .titleHome {
+    font-size: 54px;
+    width: 657px;
+  }
+
+  .contTextHome {
+    margin-left: 18%;
+  }
+}
+
+@media only screen and (min-width: 1401px) {
+  .titleHome {
+    font-size: 70px;
+    width: 700px;
+    height: auto;
+    /* border: 1px solid red; */
+  }
+
+  .contTextHome {
+    margin-left: 18%;
+  }
+
+  .homeImg {
+    position: absolute;
+    height: 676px;
+    /* width: 600px; */
+    bottom: 90px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contHome {
+    justify-content: center;
+  }
+
+  .homeImg {
+    height: 350px;
+    bottom: 30px;
+  }
+
+  .contTextHome {
+    width: 90%;
+  }
+
+  .titleHome {
+    line-height: 56px;
+    font-size: 44px;
+    width: 280px;
+  }
+
+  .subtitleHome {
+    width: 250px;
+  }
+}
