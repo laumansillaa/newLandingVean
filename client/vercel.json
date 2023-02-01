@@ -1,7 +1,7 @@
 {
     "redirects": [
-        { "source": "/uno", "destination": "/" },
-        { "source": "/dos", "destination": "/" },
-        { "source": "/tres", "destination": "/" }
+        { "source": "/", "destination": "/uno" },
+        { "source": "/", "destination": "/dos" },
+        { "source": "/", "destination": "/tres" }
     ]
 }
