@@ -112,7 +112,7 @@
   }
 
   .homeImgTres {
-    height: 300px;
+    height: 320px;
     bottom: 30px;
   }
 
@@ -122,18 +122,23 @@
 
   .titleHomeTres {
     line-height: 56px;
-    font-size: 49px;
-    width: 320px;
+    font-size: 44px;
+    width: 280px;
   }
 
   .subtitleHomeTres {
     width: 250px;
+  }
+
+  .contButtons {
+    gap: 10px;
   }
 }
 
 @media only screen and (max-width: 360px) {
   .contHomeTres {
     padding: 0px 10px 0px 10px;
+    padding-top: 24px;
   }
 
   .contTextHome {
