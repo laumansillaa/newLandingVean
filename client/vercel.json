@@ -1,7 +1,5 @@
 {
-    "redirects": [
-        { "source": "/", "destination": "/uno" },
-        { "source": "/", "destination": "/dos" },
-        { "source": "/", "destination": "/tres" }
+    "rewrites":  [
+      {"source": "/(.*)", "destination": "/"}
     ]
-}
+  }
