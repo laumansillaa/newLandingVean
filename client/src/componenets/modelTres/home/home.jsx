@@ -11,7 +11,7 @@ const HomeTres = () => {
             Bienvenidos al futuro de la industria editorial
           </h1>
           <h3 className={style.subtitleHomeTres}>
-            Comprá, vendé. y publicá libros net odo el mundo.
+            Comprá, vendé. y publicá libros en todo el mundo.
           </h3>
         </div>
         <div className={style.contButtons}>

@@ -1,0 +1,78 @@
+.contFunc {
+  height: 100vh;
+  background: #201a1a;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.contTitle {
+  margin-top: 200px;
+}
+
+.titleFunc {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 84px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.0015em;
+  color: #f5d8b9;
+}
+
+.conSection {
+  display: flex;
+  gap: 71px;
+}
+
+.contItems {
+  width: 313px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.iconFunc {
+  width: 120px;
+  height: 120px;
+}
+
+.contTxt {
+  width: 313px;
+  display: flex;
+}
+
+.num {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.0015em;
+  color: #f5d8b9;
+}
+
+.txtItem {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.0015em;
+
+  /* Paleta 1/#F5D8B9 */
+
+  color: #f5d8b9;
+}

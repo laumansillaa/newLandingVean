@@ -1,3 +1,4 @@
+import { Funcionamiento } from "./funcionamiento/funcionamiento";
 import HomeTres from "./home/home";
 import NavBarTres from "./navbar/navbar";
 
@@ -6,6 +7,7 @@ const ModelTres = () => {
     <div>
       <NavBarTres />
       <HomeTres />
+      <Funcionamiento />
     </div>
   );
 };

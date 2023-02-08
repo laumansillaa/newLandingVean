@@ -6,6 +6,7 @@
   display: flex;
   position: relative;
   padding-top: 66px;
+  border-bottom: 2px dashed #f5d8b9;
 }
 
 .homeImgTres {
