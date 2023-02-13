@@ -1,0 +1,110 @@
+.contGeneral {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 200px;
+}
+
+.ProyectoTitle {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 84px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.0015em;
+  color: #f5d8b9;
+}
+
+.conSections {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 24px;
+  /* border: 1px solid red; */
+}
+
+.sectionUno {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sectionDos {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contTxt {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.proyectTitleFunc {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0015em;
+  color: #f5d8b9;
+  width: 100%;
+}
+
+.proyectTxt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.0015em;
+  color: #f5d8b9;
+  width: 530px;
+}
+
+@media only screen and (max-width: 760px) {
+  .conSections {
+    width: 90%;
+  }
+
+  .sectionUno,
+  .sectionDos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .proyectTitleFunc {
+    width: 75%;
+  }
+
+  .conTxt,
+  .conTxtDos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .proyectTxt {
+    width: 80%;
+  }
+
+  .imgProyecto {
+    height: 260px;
+  }
+}

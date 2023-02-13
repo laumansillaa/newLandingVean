@@ -168,3 +168,12 @@
     bottom: 50px;
   }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 766px) {
+  .contHomeTres {
+    padding-left: 30px;
+  }
+  .homeImgTres {
+    height: 300px;
+  }
+}
