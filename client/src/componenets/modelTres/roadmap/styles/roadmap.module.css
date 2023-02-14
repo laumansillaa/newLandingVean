@@ -1,0 +1,165 @@
+.contRoadmap {
+  padding-top: 150px;
+  position: relative;
+}
+
+.contSectionRoadmap {
+  flex-direction: column;
+  position: absolute;
+  top: 300px;
+  left: 250px;
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: flex-end; */
+  width: 371px;
+}
+
+.contSectionDosRoadmap {
+  flex-direction: column;
+  position: absolute;
+  top: 510px;
+  right: 250px;
+  display: flex;
+  align-items: flex-start;
+  text-align: start;
+  /* justify-content: flex-end; */
+  width: 371px;
+}
+
+.contSectionTresRoadmap {
+  flex-direction: column;
+  position: absolute;
+  top: 680px;
+  left: 250px;
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: flex-end; */
+  width: 371px;
+}
+
+.contSectionCuatroRoadmap {
+  flex-direction: column;
+  position: absolute;
+  top: 850px;
+  right: 250px;
+  display: flex;
+  align-items: flex-start;
+  text-align: start;
+  /* justify-content: flex-end; */
+  width: 371px;
+}
+
+.contSectionCincoRoadmap {
+  flex-direction: column;
+  position: absolute;
+  top: 1020px;
+  left: 250px;
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: flex-end; */
+  width: 371px;
+}
+
+.titleQ {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.0015em;
+  color: #f5d8b9;
+}
+
+.title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.0015em;
+  color: #ba7c69;
+}
+
+.txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.0015em;
+  color: #f5d8b9;
+}
+
+.txtDos {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  letter-spacing: 0.0015em;
+  color: #f5d8b9;
+}
+
+.titleDos {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  letter-spacing: 0.0015em;
+  color: #ba7c69;
+}
+
+@media only screen and (min-width: 1780px) and (max-width: 1980px) {
+  .contSectionRoadmap,
+  .contSectionTresRoadmap,
+  .contSectionCincoRoadmap {
+    left: 450px;
+  }
+
+  .contSectionDosRoadmap,
+  .contSectionCuatroRoadmap {
+    right: 450px;
+  }
+}
+
+@media only screen and (min-width: 1580px) and (max-width: 1779px) {
+  .contSectionRoadmap,
+  .contSectionTresRoadmap,
+  .contSectionCincoRoadmap {
+    left: 380px;
+  }
+
+  .contSectionDosRoadmap,
+  .contSectionCuatroRoadmap {
+    right: 380px;
+  }
+}
+
+@media only screen and (min-width: 1380px) and (max-width: 1579px) {
+  .contSectionRoadmap,
+  .contSectionTresRoadmap,
+  .contSectionCincoRoadmap {
+    left: 280px;
+  }
+
+  .contSectionDosRoadmap,
+  .contSectionCuatroRoadmap {
+    right: 280px;
+  }
+}

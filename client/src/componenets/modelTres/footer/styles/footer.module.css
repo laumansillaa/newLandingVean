@@ -62,19 +62,16 @@
   opacity: 0.8;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 766px) {
   .contFooter {
     background-image: url("../assets/imgMobileFoot.svg");
   }
 
   .contTxtFoot {
     padding-top: 80px;
-    /* padding-right: 30px; */
     width: 100%;
     position: initial;
     align-items: center;
-
-    /* right: 30px; */
   }
 
   .txtFooter {

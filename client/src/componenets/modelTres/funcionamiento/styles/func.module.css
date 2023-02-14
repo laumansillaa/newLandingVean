@@ -98,3 +98,11 @@
     flex-direction: column;
   }
 }
+
+@media only screen and (min-width: 766px) and (max-width: 966px) {
+  .conSection {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}

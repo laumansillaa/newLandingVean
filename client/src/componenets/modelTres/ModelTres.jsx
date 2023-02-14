@@ -3,6 +3,7 @@ import { Funcionamiento } from "./funcionamiento/funcionamiento";
 import HomeTres from "./home/home";
 import NavBarTres from "./navbar/navbar";
 import { Proyecto } from "./proyecto/Proyecto";
+import { Roadmap } from "./roadmap/roadmap";
 import { Equipo } from "./team/Equipo";
 
 const ModelTres = () => {
@@ -12,6 +13,7 @@ const ModelTres = () => {
       <HomeTres />
       <Funcionamiento />
       <Proyecto />
+      <Roadmap/>
       <Equipo />
       <Footer />
     </div>
