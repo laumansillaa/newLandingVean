@@ -5,6 +5,13 @@
   align-items: center;
 }
 
+.contCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .nameCard {
   font-family: "EB Garamond";
   font-style: normal;
@@ -40,4 +47,8 @@
   align-items: center;
   text-align: center;
   color: #f5d8b9;
+}
+
+.contSocial {
+  display: flex;
 }

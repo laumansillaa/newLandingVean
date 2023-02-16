@@ -10,15 +10,7 @@ import NewHome from "./componenets/newHome";
 function App() {
   return (
     <div className="App">
-      {/* <NavBar />
-      <Home /> */}
-      <Routes>
-        <Route exact path="/" element={<NewHome />} />
-        <Route exact path="/uno" element={<ModelUno />} />
-        <Route exact path="/dos" element={<ModelDos />} />
-        <Route exact path="/tres" element={<ModelTres />} />
-      </Routes>
-      {/* <ModelUno /> */}
+      <ModelTres />
     </div>
   );
 }
