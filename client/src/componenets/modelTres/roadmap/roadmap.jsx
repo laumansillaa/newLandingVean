@@ -3,7 +3,7 @@ import line from "./assets/lineee.svg";
 export const Roadmap = () => {
   return (
     <div className={style.contRoadmap}>
-      <img src={line} />
+      <img src={line} className={style.lineRoad} />
       <div className={style.contSectionRoadmap}>
         <h3 className={style.titleQ}>Q1 - 2023</h3>
         <h1 className={style.title}>BIENVENIDA</h1>

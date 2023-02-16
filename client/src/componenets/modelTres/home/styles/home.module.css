@@ -176,4 +176,14 @@
   .homeImgTres {
     height: 300px;
   }
+
+  .titleHomeTres {
+    height: auto;
+    width: 490px;
+  }
+
+  .subtitleHomeTres {
+    height: auto;
+    margin-top: 35px;
+  }
 }

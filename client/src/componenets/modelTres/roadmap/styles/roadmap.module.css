@@ -163,3 +163,117 @@
     right: 280px;
   }
 }
+
+@media only screen and (max-width: 550px) {
+  .contSectionRoadmap,
+  .contSectionTresRoadmap,
+  .contSectionCincoRoadmap {
+    left: 280px;
+    position: initial;
+    text-align: start;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .contSectionDosRoadmap,
+  .contSectionCuatroRoadmap {
+    position: initial;
+    text-align: start;
+    align-items: flex-start;
+    right: 280px;
+    width: 100%;
+  }
+
+  .lineRoad {
+    position: absolute;
+    left: 30px;
+    top: 0;
+  }
+
+  .contRoadmap {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+    padding-left: 100px;
+    margin-top: 50px;
+    padding-top: 20px;
+    /* position: initial; */
+  }
+
+  .titleQ,
+  .title,
+  .txt,
+  .titleDos,
+  .txtDos {
+    text-align: left;
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 766px) {
+  .contSectionRoadmap,
+  .contSectionTresRoadmap,
+  .contSectionCincoRoadmap {
+    left: -40px;
+    text-align: start;
+    width: 50%;
+  }
+
+  .contSectionDosRoadmap,
+  .contSectionCuatroRoadmap {
+    text-align: start;
+    align-items: flex-start;
+    right: -40px;
+    width: 50%;
+  }
+
+  .txt,
+  .txtDos {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 965px) {
+  .contSectionRoadmap,
+  .contSectionTresRoadmap,
+  .contSectionCincoRoadmap {
+    left: -40px;
+    text-align: start;
+    width: 50%;
+  }
+
+  .contSectionDosRoadmap,
+  .contSectionCuatroRoadmap {
+    text-align: start;
+    align-items: flex-start;
+    right: -40px;
+    width: 50%;
+  }
+
+  .title,
+  .titleDos,
+  .txt,
+  .txtDos {
+    width: 300px;
+  }
+
+  .title {
+    text-align: end;
+  }
+}
+
+@media only screen and (min-width: 966px) and (max-width: 1400px) {
+  .contSectionRoadmap,
+  .contSectionTresRoadmap,
+  .contSectionCincoRoadmap {
+    left: 180px;
+    text-align: start;
+  }
+
+  .contSectionDosRoadmap,
+  .contSectionCuatroRoadmap {
+    text-align: start;
+    align-items: flex-start;
+    right: 180px;
+  }
+}
