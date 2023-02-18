@@ -75,7 +75,7 @@
   width: 530px;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (min-width: 361px) and (max-width: 760px) {
   .conSections {
     width: 90%;
   }
@@ -119,5 +119,39 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .conSections {
+    width: 90%;
+  }
+
+  .sectionUno,
+  .sectionDos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .proyectTitleFunc {
+    width: 75%;
+  }
+
+  .conTxt,
+  .conTxtDos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .proyectTxt {
+    width: 80%;
+  }
+
+  .imgProyecto {
+    height: 180px;
   }
 }
