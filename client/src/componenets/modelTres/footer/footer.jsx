@@ -16,10 +16,10 @@ export const Footer = () => {
       <div className={style.footer}>
         <img src={veanLogo} />
         <div className={style.contSocial}>
-          <a>
+          <a href="https://twitter.com/veanbooks" target="_blank">
             <img src={tw} />
           </a>
-          <a>
+          <a href="https://telegram.me/newsvean" target="_blank">
             <img src={tel} />
           </a>
         </div>

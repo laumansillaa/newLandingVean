@@ -144,6 +144,45 @@
 
   .contTextHome {
     width: 100%;
+    margin-top: 20px;
+  }
+
+  .titleHomeTres {
+    margin-top: 40px;
+    width: 320px;
+    height: auto;
+    font-size: 36px;
+    line-height: 55px;
+  }
+
+  .subtitleHomeTres {
+    text-align: start;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .homeImgTres {
+    height: 180px;
+    position: absolute;
+    right: 0px;
+    bottom: 50px;
+  }
+
+  .contButtons {
+    gap: 14px;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 479px) {
+  .contHomeTres {
+    padding: 0px 10px 0px 25px;
+    padding-top: 24px;
+  }
+
+  .contTextHome {
+    width: 100%;
+    margin-top: 20px;
   }
 
   .titleHomeTres {
@@ -162,14 +201,39 @@
   }
 
   .homeImgTres {
-    height: 200px;
+    height: 180px;
     position: absolute;
     right: 0px;
     bottom: 50px;
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 766px) {
+@media only screen and (min-width: 481px) and (max-width: 699px) {
+  .contHomeTres {
+    padding-left: 30px;
+  }
+  .homeImgTres {
+    height: 240px;
+  }
+
+  .titleHomeTres {
+    height: auto;
+    width: 440px;
+  }
+
+  .subtitleHomeTres {
+    height: auto;
+    margin-top: 35px;
+    width: 350px;
+    text-align: start;
+  }
+
+  .contTextHome {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 766px) {
   .contHomeTres {
     padding-left: 30px;
   }
@@ -179,11 +243,15 @@
 
   .titleHomeTres {
     height: auto;
-    width: 490px;
+    width: 440px;
   }
 
   .subtitleHomeTres {
     height: auto;
     margin-top: 35px;
+  }
+
+  .contTextHome {
+    margin-top: 10px;
   }
 }

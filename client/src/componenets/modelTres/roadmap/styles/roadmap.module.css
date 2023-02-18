@@ -164,7 +164,7 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (min-width: 361px) and (max-width: 550px) {
   .contSectionRoadmap,
   .contSectionTresRoadmap,
   .contSectionCincoRoadmap {
@@ -207,6 +207,64 @@
   .txtDos {
     text-align: left;
     width: 300px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .contSectionRoadmap,
+  .contSectionTresRoadmap,
+  .contSectionCincoRoadmap {
+    left: 280px;
+    position: initial;
+    text-align: start;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .contSectionDosRoadmap,
+  .contSectionCuatroRoadmap {
+    position: initial;
+    text-align: start;
+    align-items: flex-start;
+    right: 280px;
+    width: 100%;
+  }
+
+  .lineRoad {
+    position: absolute;
+    left: 30px;
+    top: 0;
+  }
+
+  .contRoadmap {
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
+    padding-left: 100px;
+    margin-top: 50px;
+    padding-top: 20px;
+    /* position: initial; */
+  }
+  .titleQ,
+  .title,
+  .txt,
+  .titleDos,
+  .txtDos {
+    text-align: left;
+  }
+
+  .txt,
+  .txtDos {
+    width: 240px;
+  }
+
+  .title,
+  .titleDos {
+    width: 200px;
+  }
+
+  .contSectionDosRoadmap {
+    top: 380px;
   }
 }
 

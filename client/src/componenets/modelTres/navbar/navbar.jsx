@@ -93,13 +93,12 @@ const NavBarTres = () => {
               Contacto
             </Link>
           </div>
-
           <div className={style.contSocialTres}>
-            <a href="https://telegram.me/user" target="_blank">
-              <FaTelegram className={style.icons} />
-            </a>
             <a href="https://twitter.com/veanbooks" target="_blank">
               <AiFillTwitterCircle className={style.icons} />
+            </a>
+            <a href="https://telegram.me/newsvean" target="_blank">
+              <FaTelegram className={style.icons} />
             </a>
           </div>
         </div>

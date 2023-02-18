@@ -4,6 +4,7 @@ import ari from "../../../assets/images/ari.jpg";
 import lau from "../../../assets/images/lau.jpg";
 import gaston from "../../../assets/images/gaston.jpg";
 import marti from "../assets/marti.jpg";
+import esteban from "./assets/esteban.jpeg";
 export const Equipo = () => {
   const users = [
     {
@@ -14,7 +15,7 @@ export const Equipo = () => {
     },
     {
       name: "Lautaro Mansilla",
-      rol: "Fullstack Developer",
+      rol: "Full Stack Developer",
       social: "@Laumansillaa",
       image: lau,
     },
@@ -29,6 +30,11 @@ export const Equipo = () => {
       rol: "Graphic Designer",
       social: "@Gritar",
       image: gaston,
+    },
+    {
+      name: "Esteban Segui",
+      rol: "UX/UI Designer",
+      image: esteban,
     },
   ];
 

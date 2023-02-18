@@ -9,10 +9,12 @@ export const CardUser = ({ user }) => {
       <div className={style.contTxtCard}>
         <h3 className={style.nameCard}>{user.name}</h3>
         <h3 className={style.rolCard}>{user.rol}</h3>
-        <div className={style.contSocial}>
-          <TwitterIcon sx={{ color: "#f5d8b9", height: 18 }} />
-          <h4 className={style.socialCard}>{user.social}</h4>
-        </div>
+        {user.social ? (
+          <div className={style.contSocial}>
+            <TwitterIcon sx={{ color: "#f5d8b9", height: 18 }} />
+            <h4 className={style.socialCard}>{user.social}</h4>
+          </div>
+        ) : null}
       </div>
     </div>
   );
