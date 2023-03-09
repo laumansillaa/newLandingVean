@@ -1,5 +1,5 @@
 .contFunc {
-  background: #201a1a;
+  background: #ffe8cf;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +11,7 @@
 }
 
 .titleFunc {
-  font-family: "EB Garamond";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
   font-size: 64px;
@@ -20,7 +20,7 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.0015em;
-  color: #f5d8b9;
+  color: #201a1a;
 }
 
 .conSection {

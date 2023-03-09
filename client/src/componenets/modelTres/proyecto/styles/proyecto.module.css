@@ -9,7 +9,7 @@
 }
 
 .ProyectoTitle {
-  font-family: "EB Garamond";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
   font-size: 64px;
@@ -18,7 +18,7 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.0015em;
-  color: #f5d8b9;
+  color: #201a1a;
 }
 
 .conSections {
@@ -48,8 +48,14 @@
   gap: 30px;
 }
 
+.conTxtDos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .proyectTitleFunc {
-  font-family: "EB Garamond";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
   font-size: 40px;
@@ -57,7 +63,7 @@
   display: flex;
   align-items: center;
   letter-spacing: 0.0015em;
-  color: #f5d8b9;
+  color: #201a1a;
   width: 100%;
 }
 
@@ -71,7 +77,22 @@
   align-items: center;
   text-align: justify;
   letter-spacing: 0.0015em;
-  color: #f5d8b9;
+  color: #201a1a;
+  width: 530px;
+}
+
+.proyectTxtR {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  text-align: end;
+  letter-spacing: 0.0015em;
+  color: #201a1a;
   width: 530px;
 }
 

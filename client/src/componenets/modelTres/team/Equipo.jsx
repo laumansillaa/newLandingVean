@@ -34,6 +34,7 @@ export const Equipo = () => {
     {
       name: "Esteban Segui",
       rol: "UX/UI Designer",
+      discord: "Stifen #7340",
       image: esteban,
     },
   ];

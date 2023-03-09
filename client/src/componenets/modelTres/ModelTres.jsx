@@ -1,3 +1,4 @@
+import { Colabs } from "./colabs/Colaboradores";
 import { Footer } from "./footer/footer";
 import { Funcionamiento } from "./funcionamiento/funcionamiento";
 import HomeTres from "./home/home";
@@ -13,8 +14,9 @@ const ModelTres = () => {
       <HomeTres />
       <Funcionamiento />
       <Proyecto />
-      <Roadmap/>
+      <Roadmap />
       <Equipo />
+      <Colabs />
       <Footer />
     </div>
   );

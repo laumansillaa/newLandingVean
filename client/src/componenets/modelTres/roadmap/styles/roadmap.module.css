@@ -70,11 +70,11 @@
   align-items: center;
   text-align: right;
   letter-spacing: 0.0015em;
-  color: #f5d8b9;
+  color: #201a1a;
 }
 
 .title {
-  font-family: "EB Garamond";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
@@ -83,7 +83,7 @@
   align-items: center;
   text-align: right;
   letter-spacing: 0.0015em;
-  color: #ba7c69;
+  color: #a83f3f;
 }
 
 .txt {
@@ -96,7 +96,7 @@
   align-items: center;
   text-align: right;
   letter-spacing: 0.0015em;
-  color: #f5d8b9;
+  color: #201a1a;
 }
 
 .txtDos {
@@ -109,11 +109,11 @@
   align-items: center;
   text-align: left;
   letter-spacing: 0.0015em;
-  color: #f5d8b9;
+  color: #201a1a;
 }
 
 .titleDos {
-  font-family: "EB Garamond";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
@@ -122,7 +122,7 @@
   align-items: center;
   text-align: left;
   letter-spacing: 0.0015em;
-  color: #ba7c69;
+  color: #a83f3f;
 }
 
 @media only screen and (min-width: 1780px) and (max-width: 1980px) {

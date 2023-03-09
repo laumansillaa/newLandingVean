@@ -8,7 +8,7 @@ const HomeTres = () => {
       <div className={style.contTextHome}>
         <div>
           <h1 className={style.titleHomeTres}>
-            Bienvenidos al futuro de la industria editorial
+            Un universo de libros por explorar
           </h1>
           <h3 className={style.subtitleHomeTres}>
             Comprá, vendé. y publicá libros en todo el mundo.

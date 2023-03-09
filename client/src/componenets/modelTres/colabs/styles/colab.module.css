@@ -22,7 +22,7 @@
 
 .contUsers {
   display: flex;
-  gap: 34px;
+  gap: 54px;
 }
 
 @media only screen and (max-width: 550px) {

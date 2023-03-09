@@ -13,7 +13,7 @@
 }
 
 .nameCard {
-  font-family: "EB Garamond";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -22,7 +22,7 @@
   align-items: center;
   text-align: right;
   letter-spacing: 0.0015em;
-  color: #f5d8b9;
+  color: #201a1a;
 }
 
 .rolCard {
@@ -34,7 +34,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  color: #f5d8b9;
+  color: #201a1a;
 }
 
 .socialCard {
@@ -46,7 +46,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  color: #f5d8b9;
+  color: #201a1a;
 }
 
 .contSocial {

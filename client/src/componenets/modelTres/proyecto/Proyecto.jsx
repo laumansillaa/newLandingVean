@@ -9,7 +9,7 @@ export const Proyecto = () => {
         <div className={style.sectionUno}>
           <div className={style.conTxt}>
             <h1 className={style.proyectTitleFunc}>
-              Más libros, para más personas.
+              Más libros, para más personas
             </h1>
             <p className={style.proyectTxt}>
               Creemos que vivir de escribir no debería ser una odisea. Por eso
@@ -24,7 +24,7 @@ export const Proyecto = () => {
             <h1 className={style.proyectTitleFunc}>
               Descubrí una industria mejor
             </h1>
-            <p className={style.proyectTxt}>
+            <p className={style.proyectTxtR}>
               Diseñamos un modelo de impresión eficiente que ofrece libros más
               baratos que siempre están disponibles, sin importar distancias, ni
               fronteras.
