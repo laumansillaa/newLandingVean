@@ -294,21 +294,21 @@
   .contSectionRoadmap,
   .contSectionTresRoadmap,
   .contSectionCincoRoadmap {
-    left: -40px;
+    left: 50px;
     text-align: start;
-    width: 50%;
+    width: 350px;
   }
 
   .contSectionDosRoadmap,
   .contSectionCuatroRoadmap {
     text-align: start;
     align-items: flex-start;
-    right: -40px;
-    width: 50%;
+    right: 50px;
+    width: 350px;
   }
 
-  .title,
-  .titleDos,
+  /* .title,
+  .titleDos, */
   .txt,
   .txtDos {
     width: 300px;

@@ -148,10 +148,10 @@
   }
 
   .titleHomeTres {
-    margin-top: 40px;
+    margin-top: 70px;
     width: 320px;
     height: auto;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 55px;
   }
 
@@ -163,7 +163,7 @@
   }
 
   .homeImgTres {
-    height: 180px;
+    height: 300px;
     position: absolute;
     right: 0px;
     bottom: 50px;
@@ -182,29 +182,34 @@
 
   .contTextHome {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 70px;
   }
 
   .titleHomeTres {
-    margin-top: 40px;
-    width: 330px;
+    margin: 40px 0px 0px 0px;
+    width: 350px;
     height: auto;
-    font-size: 36px;
+    font-size: 34px;
     line-height: 55px;
   }
 
   .subtitleHomeTres {
     text-align: start;
-    width: 250px;
-    font-size: 20px;
+    /* width: 100%; */
+    font-size: 18px;
     margin-top: 20px;
   }
 
   .homeImgTres {
-    height: 180px;
+    height: 380px;
     position: absolute;
     right: 0px;
     bottom: 50px;
+  }
+
+  .buttonHomeTres {
+    width: 125px;
+    height: 40px;
   }
 }
 
@@ -213,12 +218,15 @@
     padding-left: 30px;
   }
   .homeImgTres {
-    height: 240px;
+    height: 320px;
   }
 
   .titleHomeTres {
+    margin-top: 70px;
     height: auto;
     width: 440px;
+    font-size: 40px;
+    line-height: 50px;
   }
 
   .subtitleHomeTres {
@@ -253,5 +261,16 @@
 
   .contTextHome {
     margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 966px) {
+  .contHomeTres {
+    padding-left: 70px;
+  }
+
+  .titleHomeTres {
+    height: auto;
+    /* width: 440px; */
   }
 }

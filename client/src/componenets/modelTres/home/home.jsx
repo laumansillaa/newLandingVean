@@ -16,7 +16,7 @@ const HomeTres = () => {
         </div>
         <div className={style.contButtons}>
           <Link to="/" className={style.link}>
-            <button className={style.buttonHomeTres}>Empezá ahora</button>
+            <button className={style.buttonHomeTres}>Empezá</button>
           </Link>
           <Link to="/" className={style.link}>
             <button className={style.buttonHomeTres}>Enterate de más</button>

@@ -10,25 +10,25 @@ export const Colabs = () => {
     {
       name: "Naty",
       rol: "Tokenomic",
-      social: "@z",
+      social: "@NatyShi_",
       image: naty,
     },
     {
       name: "Sansil",
       rol: "Development",
-      social: "@",
+      social: "@Sansildev",
       image: santi,
     },
     {
       name: "Solange",
       rol: "Business",
-      social: "@",
+      social: "@SolangeSoifer",
       image: solange,
     },
     {
       name: "Cryptocampo",
       rol: "Legal",
-      social: "@",
+      social: "@CryptocampoNet",
       image: cryptocampo,
     },
   ];

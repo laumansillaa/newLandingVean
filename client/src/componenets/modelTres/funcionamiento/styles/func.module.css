@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 70px;
 }
 
 .contTitle {
@@ -97,6 +97,15 @@
   .conSection {
     flex-direction: column;
   }
+
+  .txtItem,
+  .num {
+    color: #201a1a;
+  }
+
+  .titleFunc {
+    font-size: 28px;
+  }
 }
 
 @media only screen and (min-width: 766px) and (max-width: 966px) {
@@ -104,5 +113,14 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
+  }
+
+  .txtItem,
+  .num {
+    color: #201a1a;
+  }
+
+  .wave {
+    display: none;
   }
 }
