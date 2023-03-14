@@ -2,10 +2,12 @@ import imgFooter from "./assets/imgFoot.svg";
 import tw from "./assets/tw.svg";
 import tel from "./assets/tel.svg";
 import veanLogo from "./assets/veanLogo.svg";
+import imgD from "./assets/imgD.svg";
 import style from "./styles/footer.module.css";
 export const Footer = () => {
   return (
     <div className={style.contFooter}>
+      <img src={imgD} className={style.imgIcon} />
       <div className={style.contTxtFoot}>
         <h3 className={style.txtFooter}>
           Ayudanos a construir Vean con tus ideas.

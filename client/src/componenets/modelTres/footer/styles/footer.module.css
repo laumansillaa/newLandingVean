@@ -64,21 +64,35 @@
   opacity: 0.8;
 }
 
+.imgIcon {
+  display: none;
+}
+
 @media only screen and (max-width: 766px) {
   .contFooter {
     background-image: url("../assets/imgMobileFoot.svg");
+    position: relative;
   }
 
   .contTxtFoot {
     padding-top: 80px;
-    width: 100%;
+    padding-right: 40px;
+    width: 70%;
     position: initial;
-    align-items: center;
+    align-items: flex-end;
   }
 
   .txtFooter {
-    text-align: center;
+    text-align: end;
     font-size: 20px;
+  }
+
+  .imgIcon {
+    display: flex;
+    position: absolute;
+    left: 0px;
+    bottom: 130px;
+    height: 200px;
   }
 }
 
