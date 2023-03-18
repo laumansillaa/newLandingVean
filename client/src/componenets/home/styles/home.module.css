@@ -121,8 +121,9 @@
 
   .titleHome {
     line-height: 56px;
-    font-size: 44px;
-    width: 280px;
+    font-size: 32px;
+    width: -webkit-fill-available;
+    height: auto;
   }
 
   .subtitleHome {
