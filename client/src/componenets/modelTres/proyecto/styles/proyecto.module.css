@@ -123,7 +123,7 @@
   color: #181818;
   width: 312px;
   height: 100px;
-  text-align: start;
+  text-align: center;
 }
 
 .contTextItem {
@@ -196,19 +196,11 @@
   }
 
   .contGeneralItems {
-    /* overflow-x: scroll;
-    overflow-y: hidden; */
-    /* width: 100%; */
     flex-direction: column;
   }
 
   .txtItem{
-
-text-align: center;
-  }
-
-  .contItems{
-    /* width: 240px; */
+  text-align: center;
   }
 
   .contGeneral {
