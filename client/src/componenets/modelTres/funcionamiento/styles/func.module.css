@@ -103,6 +103,11 @@
     color: #201a1a;
   }
 
+  .num{
+    font-size: 40px;
+  }
+
+
   .titleFunc {
     font-size: 28px;
   }
@@ -118,6 +123,10 @@
   .txtItem,
   .num {
     color: #201a1a;
+  }
+
+  .num{
+    font-size: 40px;
   }
 
   .wave {

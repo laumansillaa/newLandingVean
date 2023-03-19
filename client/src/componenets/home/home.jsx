@@ -10,7 +10,7 @@ const Home = () => {
             Bienvenidos al futuro de la industria editorial
           </h1>
           <h3 className={style.subtitleHome}>
-            Comprá, vendé. y publicá libros en todo el mundo.
+            Comprá, vendé. y publicá en todo el mundo.
           </h3>
         </div>
         <div className={style.contButtons}>

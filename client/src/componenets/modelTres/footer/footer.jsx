@@ -13,7 +13,7 @@ export const Footer = () => {
           Ayudanos a construir Vean con tus ideas.
         </h3>
         <h3 className={style.txtFooter}>¿Se te ocurren cosas?</h3>
-        <button className={style.btnFooter}>Contactanos</button>
+        <a href="mailto:veanlibros@gmail.com" target='_blank' className={style.btnFooter}>Contactanos</a>
       </div>
       <div className={style.footer}>
         <img src={veanLogo} />

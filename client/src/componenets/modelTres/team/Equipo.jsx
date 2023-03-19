@@ -5,6 +5,7 @@ import lau from "../../../assets/images/lau.jpg";
 import gaston from "../../../assets/images/gaston.jpg";
 import marti from "../assets/marti.jpg";
 import esteban from "./assets/esteban.jpeg";
+import jacqui from '../assets/jacqui.jpeg'
 export const Equipo = () => {
   const users = [
     {
@@ -37,6 +38,12 @@ export const Equipo = () => {
       discord: "Stifen #7340",
       image: esteban,
     },
+    {
+      name: "Jacqueline Leone",
+      rol: "Full Stack Developer",
+      social: "_Jacquileone",
+      image: jacqui
+    }
   ];
 
   return (

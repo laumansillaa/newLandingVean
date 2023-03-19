@@ -15,9 +15,8 @@ export const Proyecto = () => {
               Más libros, para más personas
             </h1>
             <p className={style.proyectTxt}>
-              Creemos que vivir de escribir no debería ser una odisea. Por eso
-              construimos una herramienta para publicar, vender y distribuir
-              libros de forma mucho más simple.
+            Creemos que vivir de vender tus libros es posible
+Por eso construimos una herramienta para publicar, vender y distribuirlos de forma mucho más simple.
             </p>
           </div>
           <img src={imgUsers} className={style.imgProyecto} />
@@ -28,9 +27,9 @@ export const Proyecto = () => {
               Descubrí una industria mejor
             </h1>
             <p className={style.proyectTxtR}>
-              Diseñamos un modelo de impresión eficiente que ofrece libros más
-              baratos que siempre están disponibles, sin importar distancias, ni
-              fronteras.
+            Diseñamos un modelo eficiente que ofrece 
+libros más baratos que siempre están disponibles,
+sin importar distancias, ni fronteras.
             </p>
           </div>
           <img src={imgBook} className={style.imgProyecto} />

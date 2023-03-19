@@ -16,23 +16,22 @@ export const Roadmap = () => {
         <h3 className={style.titleQ}>Q2 - 2023</h3>
         <h1 className={style.titleDos}>PRUEBA DE CONCEPTO</h1>
         <h3 className={style.txtDos}>
-          Proceso de onboarding + marketplace. Desarrollo de los primeros
-          libros.
+          Onboarding. Beta cerrada de publicación.
         </h3>
       </div>
       <div className={style.contSectionTresRoadmap}>
         <h3 className={style.titleQ}>Q3 - 2023</h3>
         <h1 className={style.title}>EL CAMINO</h1>
         <h3 className={style.txt}>
-          Beta abierta de compra y venta. Pagos con criptomonedas y FIAT.
+          Primer marketplace de ebooks. Pagos cripto y FIAT.{" "}
         </h3>
       </div>
       <div className={style.contSectionCuatroRoadmap}>
         <h3 className={style.titleQ}>Q4 - 2023</h3>
         <h1 className={style.titleDos}>LA EXPANSIÓN</h1>
         <h3 className={style.txtDos}>
-          Apertura de nuestros locales. Venta de libros como Tokens No
-          Fungibles.
+          Modelo de impresión bajo demanda. Puntos de venta oficiales. Venta de
+          libros como NFT.{" "}
         </h3>
       </div>
       <div className={style.contSectionCincoRoadmap}>
