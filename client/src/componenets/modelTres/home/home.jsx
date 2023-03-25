@@ -15,12 +15,12 @@ const HomeTres = () => {
           </h3>
         </div>
         <div className={style.contButtons}>
-          <Link to="/" className={style.link}>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqxwWCcrw0ncY1-HTVF-NBwz1C4JboZSEig5AQ-tJJa7SPzg/viewform" target='_blank' className={style.link}>
             <button className={style.buttonHomeTres}>Empezá</button>
-          </Link>
-          <Link to="/" className={style.link}>
+          </a>
+          <a href="https://fundit.finance/projects/vean-3wlljg8a6" target='_blank' className={style.link}>
             <button className={style.buttonHomeTres}>Enterate de más</button>
-          </Link>
+          </a>
         </div>
       </div>
       <img src={iconHome} className={style.homeImgTres} />
