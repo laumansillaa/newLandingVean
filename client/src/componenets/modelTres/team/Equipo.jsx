@@ -47,7 +47,7 @@ export const Equipo = () => {
   ];
 
   return (
-    <div className={style.contEquipo}>
+    <div className={style.contEquipo} id="team">
       <div>
         <h1 className={style.titleTeam}>Equipo</h1>
       </div>

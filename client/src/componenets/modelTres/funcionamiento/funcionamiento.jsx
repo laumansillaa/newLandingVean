@@ -6,7 +6,7 @@ import wave from "./assets/wave.svg";
 
 export const Funcionamiento = () => {
   return (
-    <div className={style.contFunc}>
+    <div className={style.contFunc} id="funcionamiento">
       <div className={style.contTitle}>
         <h1 className={style.titleFunc}>Cómo funciona</h1>
       </div>

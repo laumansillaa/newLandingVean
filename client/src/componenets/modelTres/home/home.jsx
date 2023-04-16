@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const HomeTres = () => {
   return (
-    <div className={style.contHomeTres}>
+    <div className={style.contHomeTres} id="home">
       <div className={style.contTextHome}>
         <div>
           <h1 className={style.titleHomeTres}>

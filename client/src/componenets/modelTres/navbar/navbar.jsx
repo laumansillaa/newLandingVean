@@ -82,7 +82,7 @@ const NavBarTres = () => {
               Equipo
             </Link>
             <Link
-              to="contact"
+              to="footer"
               spy={true}
               smooth={true}
               offset={-100}

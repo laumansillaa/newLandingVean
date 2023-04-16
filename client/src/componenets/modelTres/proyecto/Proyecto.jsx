@@ -6,7 +6,7 @@ import imgEye from "./assets/imgEye.svg";
 import imgBtc from "./assets/imgBtc.svg";
 export const Proyecto = () => {
   return (
-    <div className={style.contGeneral}>
+    <div className={style.contGeneral} id="project">
       {/* <h1 className={style.ProyectoTitle}>Proyecto</h1> */}
       <div className={style.conSections}>
         <div className={style.sectionUno}>

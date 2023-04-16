@@ -2,7 +2,7 @@ import style from "./styles/roadmap.module.css";
 import line from "./assets/lineee.svg";
 export const Roadmap = () => {
   return (
-    <div className={style.contRoadmap}>
+    <div className={style.contRoadmap} id="roadmap">
       <img src={line} className={style.lineRoad} />
       <div className={style.contSectionRoadmap}>
         <h3 className={style.titleQ}>Q1 - 2023</h3>

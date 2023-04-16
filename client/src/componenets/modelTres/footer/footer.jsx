@@ -6,7 +6,7 @@ import imgD from "./assets/imgD.svg";
 import style from "./styles/footer.module.css";
 export const Footer = () => {
   return (
-    <div className={style.contFooter}>
+    <div className={style.contFooter} id="footer">
       <img src={imgD} className={style.imgIcon} />
       <div className={style.contTxtFoot}>
         <h3 className={style.txtFooter}>
